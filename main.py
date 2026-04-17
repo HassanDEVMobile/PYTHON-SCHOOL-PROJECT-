@@ -1,10 +1,5 @@
-class eleve :
-     def __init__(self,Id):
-         self.Id = Id
-x = Eleve = eleve(1)
+from Controller import Controller
 
-list = []
-list.append(x)
-print(list)
-list.clear()
-print(list)
+lancerProgramme = Controller()
+lancerProgramme.Appdemarrer()
+
